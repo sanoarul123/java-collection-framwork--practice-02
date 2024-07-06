@@ -19,4 +19,19 @@ public class student {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        student student = (student) o;
+        return rollNo == student.rollNo;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(rollNo);
+    }
+
 }

@@ -57,6 +57,8 @@ public class LearnHashset {
 
         System.out.println(studentSet);
 
+        studentSet.add(new student("jamil", 5));
+        System.out.println(studentSet);
     }
 
 }
