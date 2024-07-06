@@ -12,6 +12,7 @@ public class LearnPriorityQueue {
         pq.offer(20);
 
         System.out.println(pq);
+
     }
 
 }
